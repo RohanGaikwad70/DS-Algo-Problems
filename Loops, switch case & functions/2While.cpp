@@ -17,7 +17,7 @@ int main()
         i=i+2;
 
     }
-    cout<<"sum of even number from  2 to "<<n<<"is"<< sum<<endl;
+    cout<<"sum of even number from  2 to "<<n<<"  is "<< sum <<endl;
     return 0;
     
 }
