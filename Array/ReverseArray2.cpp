@@ -4,10 +4,12 @@ using namespace std;
 
 void ulta(int arr[],int n)
 {
-    
-    for(int i=0;i<=;i++)
+    int temp;
+    for(int i=0;i<=n/2;i++)
     {
-        start=0;
+        temp=arr[i];
+        arr[i]=arr[n-i];
+        arr[n-i]=temp;
     }
 }
 
@@ -30,14 +32,20 @@ for(int i=0;i<=n;i++)
     cout<<rg[i]<<" ";
 }
 // ulta array
-    ulta(rg,n);
+ulta(rg,n);
 cout<<" ulta Array:";
+
 for(int i=0;i<=n;i++)
 {
-
+    
     cout<<rg[i]<<" ";
 
 }
+
+
+
+
+
 
 }
 
